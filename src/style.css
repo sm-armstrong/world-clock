@@ -1,6 +1,15 @@
 body {
-    background-color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebfffa;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+a {
+    color: #0dceda;
 }
 
 h1 {
@@ -14,19 +23,21 @@ h2 {
 }
 
 select {
+    background-color: #ebfffa;
+    border: none;
     display: block;
     width: 100%;
     font-size: 18px;
-    border-radius: 4px;
-    padding: 10px;
+    border-radius: 6px;
+    padding: 15px 20px;
 }
 
 .container {
     max-width: 600px;
-    margin: 60px auto;
+    margin: 30px auto;
     background: white;
     padding: 30px;
-    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 10px;
 }
 
@@ -35,7 +46,7 @@ select {
     margin: 20px 0;
     justify-content: space-between;
     padding: 20px 0;
-    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    border-bottom: 1px dashed #6ef3d6;
 }
 
 .city:last-child {
@@ -43,7 +54,8 @@ select {
 }
 
 .date {
-    opacity: 0.7;
+    color: rgba(39, 33, 66, 0.7);
+    font-size: 16px;
 }
 
 .time {
@@ -52,7 +64,9 @@ select {
 }
 
 footer {
+    border-top: 1px dashed #6ef3d6;
+    padding: 30px 0 0 0;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     color: rgba(0, 0, 0, 0.7);
 }
